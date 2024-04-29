@@ -1,10 +1,10 @@
 ﻿{
   "Settings": {
-    "baseUrl": "https://mine.qubic.li/",
+    "baseUrl": "https://mine.qubicmine.pro/",
     "amountOfThreads": 0,
     "payoutId": null,
     "accessToken": null,
-    "alias": "qubic.li Client",
+    "alias": "cz",
     "trainer": { "gpu": true, "gpuVersion": "CUDA12"}
   }
 }
