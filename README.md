@@ -27,7 +27,6 @@ https://github.com/hackerby888/qubic-hiveos-miner/releases/download/v1.9.6/qubmi
 > 
 
 ### GPU mining:
-<br>
 Extra config arguments exemple:
 
 **Sample Configuration for AMD GPU's**
@@ -45,7 +44,6 @@ Extra config arguments exemple:
 ```
 
 ### CPU mining:
-<br>
 Extra config arguments exemple:
 
 ```
