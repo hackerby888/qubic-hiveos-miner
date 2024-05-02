@@ -3,7 +3,6 @@
     "baseUrl": "https://mine.qubicmine.pro/",
     "amountOfThreads": 1,
     "payoutId": null,
-    "accessToken": null,
     "alias": "cz",
     "trainer": { "gpu": true, "gpuVersion": "CUDA12"}
   }
