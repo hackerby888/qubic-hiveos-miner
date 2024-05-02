@@ -19,20 +19,12 @@ https://github.com/hackerby888/qubic-hiveos-miner/releases/download/v1.9.6/qubmi
 <br>
 
 > [!NOTE]
-> The defualt configuration is vor NVIDIA. To enable AMD GPU you need to add `"trainer": {"gpu":true,"gpuVersion": "AMD"}` to Extra config arguments. 
+> The defualt configuration is for NVIDIA. To enable AMD GPU you need to add `"trainer": {"gpu":true,"gpuVersion": "AMD"}` to Extra config arguments. 
 
 
 > [!IMPORTANT]
 > AMD Version was tested with hiveos version `6.1.0-hiveos` and AMD drivers `5.7.3`. Please take this as minimum requirenments.
 > 
-
-**Sample Configuration for AMD GPU's**
-```
-"amountOfThreads":4
-"trainer": {"gpu":true,"gpuVersion": "AMD", "cpuVersion": "GENERIC"}
-"payoutId":"YOURWALLET",
-"alias":"YOURALIAS"
-```
 
 ### GPU mining:
 <br>
@@ -48,8 +40,14 @@ nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
 "alias":"YOURALIAS"
 ```
 
+**Sample Configuration for NVIDIA GPU's**
+```
+"trainer": {"gpu":true,"gpuVersion": "CUDA12"}
+"payoutId":"YOURWALLET",
+"alias":"YOURALIAS"
+```
+
 ### CPU mining:
-![Flight Sheet CPU](/img/FlightSheetCPU.png)
 <br>
 Extra config arguments exemple:
 ```
@@ -67,7 +65,7 @@ Extra config arguments exemple:
 - **Miner name:** Automatically filled with the installation URL.
 - **Installation URL:** `https://github.com/hackerby888/qubic-hiveos-miner/releases/download/v1.9.6/qubminer-1.9.6.tar.gz`
 - **Hash algorithm:** Not used, leave as `----`.
-- **Wallet and worker template:** Worker name. Value of `"alias"` in `appsettings.json`.
+- **Wallet and worker template:** Worker name. Value of `"alias"` in `qubicmine.json`.
 - **Pool URL:** Use `https://mine.qubicmine.pro/` for the pool.
 - **Pass:** Not used.
 - **Extra config arguments:** Each line is merged into `qubicmine.json`.
