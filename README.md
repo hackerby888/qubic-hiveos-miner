@@ -18,14 +18,6 @@ https://github.com/hackerby888/qubic-hiveos-miner/releases/download/v1.9.6/qubmi
 
 <br>
 
-> [!NOTE]
-> The defualt configuration is for NVIDIA. To enable AMD GPU you need to add `"trainer": {"gpu":true,"gpuVersion": "AMD"}` to Extra config arguments. 
-
-
-> [!IMPORTANT]
-> AMD Version was tested with hiveos version `6.1.0-hiveos` and AMD drivers `5.7.3`. Please take this as minimum requirenments.
-> 
-
 ### GPU mining:
 Extra config arguments exemple:
 ![Flight Sheet CPU](/img/gpu.png)
