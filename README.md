@@ -4,18 +4,6 @@ Use URL in HiveOs flight sheet:
 <br>
 https://github.com/hackerby888/qubic-hiveos-miner/releases/download/v1.9.6/qubminer-1.9.6.tar.gz
 
-- [Qubic HiveOs Miner](#qubic-hiveos-miner)
-  - [Qubic Resources](#qubic-resources)
-  - [:warning: HiveOs Mandatory Installation Instructions](#warning-hiveos-mandatory-installation-instructions)
-  - [Flight Sheet Configuration](#flight-sheet-configuration)
-    - [GPU+CPU (Dual) mining:](#gpucpu-dual-mining)
-    - [GPU mining:](#gpu-mining)
-    - [CPU mining:](#cpu-mining)
-  - [:wrench: Hive Os Settings](#wrench-hive-os-settings)
-    - [Miner Configuration](#miner-configuration)
-    - [Recommended GPU overclocks :](#recommended-gpu-overclocks-)
-    - [Extra config arguments Box (options):](#extra-config-arguments-box-options)
-
 ## :warning: HiveOs Mandatory Installation Instructions
 - The CPU where you run the Client must support AVX2 or AVX512 CPU instructions
 `cat /proc/cpuinfo | grep avx2`(check if `avx2` is in the result)
@@ -91,15 +79,3 @@ Extra config arguments exemple:
 **High**  
 3000 series ```nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000```  
 4000 series ```nvtool --setcoreoffset 200 --setclocks 2900 --setmem 7000 --setmemoffset 2000```  
-
-
-### Extra config arguments Box (options):
-
-| Setting | Description                                                                                                                                                                                                                                  |
-| ---- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|                                  |
-| ```"payoutId":``` | This is the wallet andress you want to get token payout for your found solutions.                                                                                                                                                                        |
-| ```"hugePages":nnnn``` | Depending on your environment you might want to enable huge pages. This can increase your iterations per second. The trainer will tell you what is the optimal setting when it detects a wrong value. The number depends on the number of threads: nb_threads * 52 (e.g., 16 * 52 = 832). If trainer is unstable please remove. |
-|  ```"overwrites": {"AVX512": false}``` | Disable AVX512 and enforce AVX2 (AVX Intel CPU not working)                                                                                                                                                                                  |
-| ```"overwrites": {"SKYLAKE": true}```  | Enforce SKYLAKE (AVX Intel CPU not working)                                                                                                                                                                                                  |
-| ```"trainer": {"gpu": true, "gpVersion": "AMD"}```  | Enforce AMD                                                                                                                                                                                                  |
-<br>
