@@ -29,6 +29,7 @@ https://github.com/hackerby888/qubic-hiveos-miner/releases/download/v1.9.6/qubmi
 ### GPU mining:
 <br>
 Extra config arguments exemple:
+
 ```
 nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
 ```
@@ -50,6 +51,7 @@ nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
 ### CPU mining:
 <br>
 Extra config arguments exemple:
+
 ```
 "cpuOnly":"yes"
 "amountOfThreads":24
