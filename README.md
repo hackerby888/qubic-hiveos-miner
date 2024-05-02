@@ -30,10 +30,6 @@ https://github.com/hackerby888/qubic-hiveos-miner/releases/download/v1.9.6/qubmi
 <br>
 Extra config arguments exemple:
 
-```
-nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000
-```
-
 **Sample Configuration for AMD GPU's**
 ```
 "trainer": {"gpu":true,"gpuVersion": "AMD"}
