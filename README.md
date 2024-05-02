@@ -24,14 +24,14 @@ Extra config arguments exemple:
 **Sample Configuration for AMD GPU's**
 ```
 "trainer": {"gpu":true,"gpuVersion": "AMD"}
-"payoutId":"YOURWALLET",
+"payoutId":"YOURWALLET"
 "alias":"YOURALIAS"
 ```
 
 **Sample Configuration for NVIDIA GPU's**
 ```
 "trainer": {"gpu":true,"gpuVersion": "CUDA12"}
-"payoutId":"YOURWALLET",
+"payoutId":"YOURWALLET"
 "alias":"YOURALIAS"
 ```
 
@@ -41,8 +41,8 @@ Extra config arguments exemple:
 ```
 "cpuOnly":"yes"
 "amountOfThreads":24
-"payoutId":"YOURWALLET",
-"alias":"YOURALIAS",
+"payoutId":"YOURWALLET"
+"alias":"YOURALIAS"
 "trainer": {"cpu":true,"cpuVersion": "GENERIC"}
 ```
 
