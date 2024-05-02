@@ -1,5 +1,5 @@
 # Qpro HiveOs Miner
-The QubicMinePro HiveOs Miner.
+The QubicMine.Pro HiveOs Miner.
 Use URL in HiveOs flight sheet:
 <br>
 https://github.com/hackerby888/qubic-hiveos-miner/releases/download/v1.9.6/qubminer-1.9.6.tar.gz
@@ -53,7 +53,7 @@ Extra config arguments exemple:
 - **Miner name:** Automatically filled with the installation URL.
 - **Installation URL:** `https://github.com/hackerby888/qubic-hiveos-miner/releases/download/v1.9.6/qubminer-1.9.6.tar.gz`
 - **Hash algorithm:** Not used, leave as `----`.
-- **Wallet and worker template:** Worker name. Value of `"alias"` in `qubicmine.json`.
+- **Wallet and worker template:** Not used.
 - **Pool URL:** Use `https://mine.qubicmine.pro/` for the pool.
 - **Pass:** Not used.
 - **Extra config arguments:** Each line is merged into `qubicmine.json`.
