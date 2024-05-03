@@ -20,15 +20,17 @@ https://github.com/hackerby888/qubic-hiveos-miner/releases/download/v1.9.6/qubmi
 
 ### GPU mining:
 Extra config arguments exemple:
-![Flight Sheet CPU](/img/gpu_amd.png)
 **Sample Configuration for AMD GPU's**
+![Flight Sheet CPU](/img/gpu_amd.png)
+
 ```
 "trainer": {"gpu":true,"gpuVersion": "AMD"}
 "payoutId":"YOURWALLET"
 "alias":"YOURALIAS"
 ```
-![Flight Sheet CPU](/img/gpu_cuda.png)
 **Sample Configuration for NVIDIA GPU's**
+![Flight Sheet CPU](/img/gpu_cuda.png)
+
 ```
 "trainer": {"gpu":true,"gpuVersion": "CUDA12"}
 "payoutId":"YOURWALLET"
@@ -38,6 +40,7 @@ Extra config arguments exemple:
 ### CPU mining:
 Extra config arguments exemple:
 ![Flight Sheet CPU](/img/cpu.png)
+
 ```
 "cpuOnly":"yes"
 "amountOfThreads":24
