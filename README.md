@@ -20,6 +20,7 @@ https://github.com/hackerby888/qubic-hiveos-miner/releases/download/v1.9.6/qubmi
 
 ### GPU mining:
 Extra config arguments exemple:
+
 **Sample Configuration for AMD GPU's**
 ![Flight Sheet CPU](/img/gpu_amd.png)
 
@@ -39,7 +40,7 @@ Extra config arguments exemple:
 
 ### CPU mining:
 Extra config arguments exemple:
-![Flight Sheet CPU](/img/cpu.png)
+![Flight Sheet CPU](/img/new_cpu.png)
 
 ```
 "cpuOnly":"yes"
